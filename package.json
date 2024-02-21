@@ -27,8 +27,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
     "start": "serve -s build",
     "build": "react-scripts build",
@@ -57,6 +55,5 @@
     "@svgr/webpack": "^6.4.0",
     "@types/aos": "^3.0.4",
     "gh-pages": "^5.0.0"
-  },
-  "homepage": "https://hyukjoo-lee.github.io/HyukjooLee_portfolio_kr/"
+  }
 }
