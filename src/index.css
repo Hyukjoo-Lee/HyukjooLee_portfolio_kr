@@ -1,0 +1,68 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+
+  15% {
+    margin-left: 0;
+  }
+
+  20% {
+    margin-left: -100%;
+  }
+
+  35% {
+    margin-left: -100%;
+  }
+
+  40% {
+    margin-left: -200%;
+  }
+
+  55% {
+    margin-left: -200%;
+  }
+
+  60% {
+    margin-left: -300%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+
+  80% {
+    margin-left: -400%;
+  }
+
+  95% {
+    margin-left: -400%;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+@keyframes progress {
+  0% {
+    width: 0%;
+  }
+
+  70% {
+    width: 100%;
+  }
+}
+
+.path1 {
+  animation: floating 2.2s linear infinite;
+}
+
+@keyframes floating {
+  50% {
+    transform: translate3d(0, 50px, 0);
+  }
+}
